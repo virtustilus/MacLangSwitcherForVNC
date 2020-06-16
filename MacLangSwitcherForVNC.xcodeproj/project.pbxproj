@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C839EBE2498850E0063C39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839EBD2498850E0063C39C /* AppDelegate.swift */; };
+		5C839EC02498850E0063C39C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839EBF2498850E0063C39C /* ContentView.swift */; };
+		5C839EC2249885110063C39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C839EC1249885110063C39C /* Assets.xcassets */; };
+		5C839EC5249885110063C39C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C839EC4249885110063C39C /* Preview Assets.xcassets */; };
+		5C839EC8249885110063C39C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C839EC6249885110063C39C /* Main.storyboard */; };
+		5C839ED4249885110063C39C /* MacLangSwitcherForVNCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839ED3249885110063C39C /* MacLangSwitcherForVNCTests.swift */; };
+		5C839EDF249885110063C39C /* MacLangSwitcherForVNCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839EDE249885110063C39C /* MacLangSwitcherForVNCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C839ED0249885110063C39C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C839EB22498850E0063C39C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C839EB92498850E0063C39C;
+			remoteInfo = MacLangSwitcherForVNC;
+		};
+		5C839EDB249885110063C39C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C839EB22498850E0063C39C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C839EB92498850E0063C39C;
+			remoteInfo = MacLangSwitcherForVNC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C839EBA2498850E0063C39C /* MacLangSwitcherForVNC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLangSwitcherForVNC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C839EBD2498850E0063C39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C839EBF2498850E0063C39C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C839EC1249885110063C39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C839EC4249885110063C39C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C839EC7249885110063C39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C839EC9249885110063C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C839ECA249885110063C39C /* MacLangSwitcherForVNC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLangSwitcherForVNC.entitlements; sourceTree = "<group>"; };
+		5C839ECF249885110063C39C /* MacLangSwitcherForVNCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLangSwitcherForVNCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C839ED3249885110063C39C /* MacLangSwitcherForVNCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLangSwitcherForVNCTests.swift; sourceTree = "<group>"; };
+		5C839ED5249885110063C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C839EDA249885110063C39C /* MacLangSwitcherForVNCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLangSwitcherForVNCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C839EDE249885110063C39C /* MacLangSwitcherForVNCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLangSwitcherForVNCUITests.swift; sourceTree = "<group>"; };
+		5C839EE0249885110063C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C839EB72498850E0063C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C839ECC249885110063C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C839ED7249885110063C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C839EB12498850E0063C39C = {
+			isa = PBXGroup;
+			children = (
+				5C839EBC2498850E0063C39C /* MacLangSwitcherForVNC */,
+				5C839ED2249885110063C39C /* MacLangSwitcherForVNCTests */,
+				5C839EDD249885110063C39C /* MacLangSwitcherForVNCUITests */,
+				5C839EBB2498850E0063C39C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C839EBB2498850E0063C39C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C839EBA2498850E0063C39C /* MacLangSwitcherForVNC.app */,
+				5C839ECF249885110063C39C /* MacLangSwitcherForVNCTests.xctest */,
+				5C839EDA249885110063C39C /* MacLangSwitcherForVNCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C839EBC2498850E0063C39C /* MacLangSwitcherForVNC */ = {
+			isa = PBXGroup;
+			children = (
+				5C839EBD2498850E0063C39C /* AppDelegate.swift */,
+				5C839EBF2498850E0063C39C /* ContentView.swift */,
+				5C839EC1249885110063C39C /* Assets.xcassets */,
+				5C839EC6249885110063C39C /* Main.storyboard */,
+				5C839EC9249885110063C39C /* Info.plist */,
+				5C839ECA249885110063C39C /* MacLangSwitcherForVNC.entitlements */,
+				5C839EC3249885110063C39C /* Preview Content */,
+			);
+			path = MacLangSwitcherForVNC;
+			sourceTree = "<group>";
+		};
+		5C839EC3249885110063C39C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C839EC4249885110063C39C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C839ED2249885110063C39C /* MacLangSwitcherForVNCTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C839ED3249885110063C39C /* MacLangSwitcherForVNCTests.swift */,
+				5C839ED5249885110063C39C /* Info.plist */,
+			);
+			path = MacLangSwitcherForVNCTests;
+			sourceTree = "<group>";
+		};
+		5C839EDD249885110063C39C /* MacLangSwitcherForVNCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C839EDE249885110063C39C /* MacLangSwitcherForVNCUITests.swift */,
+				5C839EE0249885110063C39C /* Info.plist */,
+			);
+			path = MacLangSwitcherForVNCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C839EB92498850E0063C39C /* MacLangSwitcherForVNC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C839EE3249885110063C39C /* Build configuration list for PBXNativeTarget "MacLangSwitcherForVNC" */;
+			buildPhases = (
+				5C839EB62498850E0063C39C /* Sources */,
+				5C839EB72498850E0063C39C /* Frameworks */,
+				5C839EB82498850E0063C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacLangSwitcherForVNC;
+			productName = MacLangSwitcherForVNC;
+			productReference = 5C839EBA2498850E0063C39C /* MacLangSwitcherForVNC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C839ECE249885110063C39C /* MacLangSwitcherForVNCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C839EE6249885110063C39C /* Build configuration list for PBXNativeTarget "MacLangSwitcherForVNCTests" */;
+			buildPhases = (
+				5C839ECB249885110063C39C /* Sources */,
+				5C839ECC249885110063C39C /* Frameworks */,
+				5C839ECD249885110063C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C839ED1249885110063C39C /* PBXTargetDependency */,
+			);
+			name = MacLangSwitcherForVNCTests;
+			productName = MacLangSwitcherForVNCTests;
+			productReference = 5C839ECF249885110063C39C /* MacLangSwitcherForVNCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C839ED9249885110063C39C /* MacLangSwitcherForVNCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C839EE9249885110063C39C /* Build configuration list for PBXNativeTarget "MacLangSwitcherForVNCUITests" */;
+			buildPhases = (
+				5C839ED6249885110063C39C /* Sources */,
+				5C839ED7249885110063C39C /* Frameworks */,
+				5C839ED8249885110063C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C839EDC249885110063C39C /* PBXTargetDependency */,
+			);
+			name = MacLangSwitcherForVNCUITests;
+			productName = MacLangSwitcherForVNCUITests;
+			productReference = 5C839EDA249885110063C39C /* MacLangSwitcherForVNCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C839EB22498850E0063C39C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Virtustilus;
+				TargetAttributes = {
+					5C839EB92498850E0063C39C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5C839ECE249885110063C39C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5C839EB92498850E0063C39C;
+					};
+					5C839ED9249885110063C39C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5C839EB92498850E0063C39C;
+					};
+				};
+			};
+			buildConfigurationList = 5C839EB52498850E0063C39C /* Build configuration list for PBXProject "MacLangSwitcherForVNC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C839EB12498850E0063C39C;
+			productRefGroup = 5C839EBB2498850E0063C39C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C839EB92498850E0063C39C /* MacLangSwitcherForVNC */,
+				5C839ECE249885110063C39C /* MacLangSwitcherForVNCTests */,
+				5C839ED9249885110063C39C /* MacLangSwitcherForVNCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C839EB82498850E0063C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C839EC8249885110063C39C /* Main.storyboard in Resources */,
+				5C839EC5249885110063C39C /* Preview Assets.xcassets in Resources */,
+				5C839EC2249885110063C39C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C839ECD249885110063C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C839ED8249885110063C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C839EB62498850E0063C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C839EC02498850E0063C39C /* ContentView.swift in Sources */,
+				5C839EBE2498850E0063C39C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C839ECB249885110063C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C839ED4249885110063C39C /* MacLangSwitcherForVNCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C839ED6249885110063C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C839EDF249885110063C39C /* MacLangSwitcherForVNCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C839ED1249885110063C39C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C839EB92498850E0063C39C /* MacLangSwitcherForVNC */;
+			targetProxy = 5C839ED0249885110063C39C /* PBXContainerItemProxy */;
+		};
+		5C839EDC249885110063C39C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C839EB92498850E0063C39C /* MacLangSwitcherForVNC */;
+			targetProxy = 5C839EDB249885110063C39C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C839EC6249885110063C39C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839EC7249885110063C39C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C839EE1249885110063C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C839EE2249885110063C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5C839EE4249885110063C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacLangSwitcherForVNC/MacLangSwitcherForVNC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacLangSwitcherForVNC/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q29PRDTJ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacLangSwitcherForVNC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtustilus.MacLangSwitcherForVNC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C839EE5249885110063C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacLangSwitcherForVNC/MacLangSwitcherForVNC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacLangSwitcherForVNC/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q29PRDTJ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacLangSwitcherForVNC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtustilus.MacLangSwitcherForVNC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5C839EE7249885110063C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q29PRDTJ8;
+				INFOPLIST_FILE = MacLangSwitcherForVNCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtustilus.MacLangSwitcherForVNCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacLangSwitcherForVNC.app/Contents/MacOS/MacLangSwitcherForVNC";
+			};
+			name = Debug;
+		};
+		5C839EE8249885110063C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q29PRDTJ8;
+				INFOPLIST_FILE = MacLangSwitcherForVNCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtustilus.MacLangSwitcherForVNCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacLangSwitcherForVNC.app/Contents/MacOS/MacLangSwitcherForVNC";
+			};
+			name = Release;
+		};
+		5C839EEA249885110063C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q29PRDTJ8;
+				INFOPLIST_FILE = MacLangSwitcherForVNCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtustilus.MacLangSwitcherForVNCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacLangSwitcherForVNC;
+			};
+			name = Debug;
+		};
+		5C839EEB249885110063C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q29PRDTJ8;
+				INFOPLIST_FILE = MacLangSwitcherForVNCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtustilus.MacLangSwitcherForVNCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacLangSwitcherForVNC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C839EB52498850E0063C39C /* Build configuration list for PBXProject "MacLangSwitcherForVNC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C839EE1249885110063C39C /* Debug */,
+				5C839EE2249885110063C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C839EE3249885110063C39C /* Build configuration list for PBXNativeTarget "MacLangSwitcherForVNC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C839EE4249885110063C39C /* Debug */,
+				5C839EE5249885110063C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C839EE6249885110063C39C /* Build configuration list for PBXNativeTarget "MacLangSwitcherForVNCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C839EE7249885110063C39C /* Debug */,
+				5C839EE8249885110063C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C839EE9249885110063C39C /* Build configuration list for PBXNativeTarget "MacLangSwitcherForVNCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C839EEA249885110063C39C /* Debug */,
+				5C839EEB249885110063C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C839EB22498850E0063C39C /* Project object */;
+}
