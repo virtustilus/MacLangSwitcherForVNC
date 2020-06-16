@@ -14,8 +14,7 @@
 		5C839EC8249885110063C39C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C839EC6249885110063C39C /* Main.storyboard */; };
 		5C839ED4249885110063C39C /* MacLangSwitcherForVNCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839ED3249885110063C39C /* MacLangSwitcherForVNCTests.swift */; };
 		5C839EDF249885110063C39C /* MacLangSwitcherForVNCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839EDE249885110063C39C /* MacLangSwitcherForVNCUITests.swift */; };
-		5C839EED249889F90063C39C /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839EEC249889F90063C39C /* HotKey.swift */; };
-		5C839EEF24989D510063C39C /* HotKeyCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839EEE24989D510063C39C /* HotKeyCallback.swift */; };
+		5C839EF12498AC110063C39C /* InputSourcesSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839EF02498AC110063C39C /* InputSourcesSwitcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +49,7 @@
 		5C839EDA249885110063C39C /* MacLangSwitcherForVNCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLangSwitcherForVNCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C839EDE249885110063C39C /* MacLangSwitcherForVNCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLangSwitcherForVNCUITests.swift; sourceTree = "<group>"; };
 		5C839EE0249885110063C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C839EEC249889F90063C39C /* HotKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKey.swift; sourceTree = "<group>"; };
-		5C839EEE24989D510063C39C /* HotKeyCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyCallback.swift; sourceTree = "<group>"; };
+		5C839EF02498AC110063C39C /* InputSourcesSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSourcesSwitcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,15 +100,14 @@
 		5C839EBC2498850E0063C39C /* MacLangSwitcherForVNC */ = {
 			isa = PBXGroup;
 			children = (
-				5C839EEE24989D510063C39C /* HotKeyCallback.swift */,
 				5C839EBD2498850E0063C39C /* AppDelegate.swift */,
 				5C839EBF2498850E0063C39C /* ContentView.swift */,
+				5C839EF02498AC110063C39C /* InputSourcesSwitcher.swift */,
 				5C839EC1249885110063C39C /* Assets.xcassets */,
 				5C839EC6249885110063C39C /* Main.storyboard */,
 				5C839EC9249885110063C39C /* Info.plist */,
 				5C839ECA249885110063C39C /* MacLangSwitcherForVNC.entitlements */,
 				5C839EC3249885110063C39C /* Preview Content */,
-				5C839EEC249889F90063C39C /* HotKey.swift */,
 			);
 			path = MacLangSwitcherForVNC;
 			sourceTree = "<group>";
@@ -272,10 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C839EEF24989D510063C39C /* HotKeyCallback.swift in Sources */,
 				5C839EC02498850E0063C39C /* ContentView.swift in Sources */,
 				5C839EBE2498850E0063C39C /* AppDelegate.swift in Sources */,
-				5C839EED249889F90063C39C /* HotKey.swift in Sources */,
+				5C839EF12498AC110063C39C /* InputSourcesSwitcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
