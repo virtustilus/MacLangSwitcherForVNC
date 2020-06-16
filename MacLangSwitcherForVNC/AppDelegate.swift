@@ -16,6 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
   var window: NSWindow!
   var hotkey: HotKey!
+  var hotkeyCb: HotKeyCallback!
 
 
   func applicationDidFinishLaunching(_ aNotification: Notification) {
@@ -32,17 +33,19 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     window.contentView = NSHostingView(rootView: contentView)
     window.makeKeyAndOrderFront(nil)
     
-    HotKey.register(keyCode: kVK_Space, modifierFlags: NSEvent.ModifierFlags.command) {
-      
-      print("Callback happened!")
-      
-      return noErr
-    }
+    hotkey = HotKey()
+    hotkeyCb = HotKeyCallback(callback: self.hotkeyCallback)
     
+    hotkey.register(keyCode: kVK_Space, modifierFlags: NSEvent.ModifierFlags.command, hotkeyCb)
   }
 
   func applicationWillTerminate(_ aNotification: Notification) {
     // Insert code here to tear down your application
+  }
+  
+  func hotkeyCallback()->OSStatus {
+    NSLog("Callback happened")
+    return noErr
   }
 
 

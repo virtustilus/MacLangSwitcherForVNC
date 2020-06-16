@@ -77,14 +77,12 @@ class HotKey {
     eventType.eventKind = OSType(kEventHotKeyReleased)
     
     // Install handler.
-    let ptr = UnsafeMutablePointer<Any>.allocate(capacity: 1)
-    ptr.initialize(to: callback.cb)
+    let ptr = UnsafeMutableRawPointer(Unmanaged<HotKeyCallback>.passUnretained(callback).toOpaque())
 
     let eventHandlerUPP: EventHandlerUPP = {(_: OpaquePointer?, _: OpaquePointer?, ptr: UnsafeMutableRawPointer?) -> OSStatus in
         guard let pointer = ptr else { fatalError() }
-        // EventHandlerProcPtr
-        UnsafeMutablePointer<() -> ()>(OpaquePointer(pointer)).pointee()
-        return noErr
+        let cb = Unmanaged<HotKeyCallback>.fromOpaque(pointer).takeUnretainedValue()
+        return cb.cb()
     }
 
     InstallEventHandler(GetApplicationEventTarget(), eventHandlerUPP, 1, &eventType, ptr, nil)
