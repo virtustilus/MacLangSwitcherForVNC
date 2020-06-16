@@ -8,11 +8,14 @@
 
 import Cocoa
 import SwiftUI
+import Carbon
+
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
   var window: NSWindow!
+  var hotkey: HotKey!
 
 
   func applicationDidFinishLaunching(_ aNotification: Notification) {
@@ -28,6 +31,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     window.setFrameAutosaveName("Main Window")
     window.contentView = NSHostingView(rootView: contentView)
     window.makeKeyAndOrderFront(nil)
+    
+    HotKey.register(keyCode: kVK_Space, modifierFlags: NSEvent.ModifierFlags.command) {
+      
+      print("Callback happened!")
+      
+      return noErr
+    }
+    
   }
 
   func applicationWillTerminate(_ aNotification: Notification) {
