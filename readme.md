@@ -10,6 +10,10 @@ Since Catalina they changed that behavior and now you will type EN letters even 
 
 And this is where this small app helps you.
 
+Related issue that I opened in February 2020 in Apple discussion forum:
+[Catalina VNC keyboard layout](https://discussions.apple.com/thread/251108022)
+
+
 ## How does it work
 
 This application just switches your layout event when you are working with ScreenSharing app.
@@ -26,7 +30,9 @@ This application just switches your layout event when you are working with Scree
 
 ### Switch off default hotkey
 
-Switch off default layout switch by going to System Preferences -> Keyboard -> Shortcuts -> Input Sources and unchecking CMD+Space combination.
+Switch off default layout hotkey by going to System Preferences -> Keyboard -> Shortcuts -> Input Sources and unchecking CMD+Space combination.
+
+Do the same on remote Mac as well.
 
 ## Known issues
 
