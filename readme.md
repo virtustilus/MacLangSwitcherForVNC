@@ -18,11 +18,11 @@ This application just switches your layout event when you are working with Scree
 ### Compile and start
 
 1. Setup XCode to compile this application.
-2. Open xcodeproj file in the application.
-3. Build application.
-4. Open Products folder and copy .app file into /Applications folder. 
-5. Open System Preferences -> Security & Privacy -> Accesibility and drag app file there.
-6. Start application.
+1. Open xcodeproj file in the application.
+1. Build application.
+1. Open Products folder and copy .app file into /Applications folder. 
+1. Open System Preferences -> Security & Privacy -> Accesibility and drag app file there.
+1. Start application.
 
 ### Switch off default hotkey
 
